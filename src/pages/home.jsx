@@ -45,7 +45,7 @@ export const Home = (props) =>{
                     <h1 className="text-xl text-white">Who's watching?</h1>
                 </header>
                 <div ref={circleM}  className="h-[30rem] mx-8  px-8 border-gray-400 border- mt-16 w-[30rem] rounded-full">
-                    <div className="images hidden translate-x-[10rem] w-28 h-28 rounded-full bg-red-900">
+                    <div className="images hidden translate-x-[10rem] translate-y-[1rem] w-28 h-28 rounded-full bg-red-900">
                         <div className="block w-28 h-28 z-10 rounded-full border-gray-400"></div>
                     </div>
                     <div  className="images hidden  relative  w-28 h-28 rounded-full bg-white">
@@ -60,7 +60,7 @@ export const Home = (props) =>{
                     <div  className="images hidden relative translate-y-[-11.8rem] translate-x-[16rem]  w-28 h-28 rounded-full bg-white">
                   
                     </div>
-                    <div onClick={()=>displayFace()} className="translate-y-[-10rem] translate-x-[8rem] self-center text-white text-xl flex flex-row items-center justify-center w-40 h-16 bg-gray-600 rounded-2xl">
+                    <div onClick={()=>displayFace()} className="translate-y-[-8rem] translate-x-[9.9rem] self-center text-white text-xl flex flex-row items-center justify-center w-28 h-28 bg-gray-600 rounded-full">
                         Add Profile
                     </div>
                 </div>
