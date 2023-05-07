@@ -6,12 +6,12 @@ import './App.css'
 import { Home } from './pages/home';
 
 function App() {
- 
+  let images = document.querySelectorAll(".images");
   return (
     <>
       <Router>
         <Routes>
-          <Route path='/' element={<Home></Home>}></Route>
+          <Route path='/' element={<Home cant ={images}></Home>}></Route>
         </Routes>
       </Router>
     </>
