@@ -5,7 +5,8 @@ export default {
     "./src/pages/home.jsx",
     "./src/index.css",
     "./src/components/navbar.jsx",
-    "./src/components/faces.jsx"
+    "./src/components/faces.jsx",
+    "./src/pages/SignUpForm.jsx"
   ],
   theme: {
     extend: {},
